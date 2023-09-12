@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className={inter.className}>
+      <body className={inter.className} style={{ overflow: "hidden" }}>
         <main
           className="text-slate-900 dark:text-slate-100 bg-white dark:bg-slate-900 grid h-screen min-w-full"
           style={{ gridTemplateColumns: "1fr 4fr" }}

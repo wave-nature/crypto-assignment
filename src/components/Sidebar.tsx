@@ -34,31 +34,8 @@ export default function () {
 
   return (
     <aside className="border-r px-4 py-8 border-slate-700  ">
-      <Link
-        href="/"
-        className="text-xl group font-bold uppercase text-center block "
-      >
-        <span className="group-hover:-translate-x-4 group-hover:-translate-y-4 group-hover:rotate-3 transition duration-700 ">
-          D
-        </span>
-        <span className="group-hover:translate-x-4 group-hover:translate-y-4 group-hover:rotate-3 transition duration-700 ">
-          E
-        </span>
-        <span className="group-hover:-translate-x-8 group-hover:-translate-y-8 group-hover:rotate-3 transition duration-700 ">
-          N
-        </span>
-        <span className="group-hover:translate-x-8 group-hover:translate-y-8group-hover:rotate-3 transition duration-700 ">
-          S
-        </span>
-        <span className="group-hover:-translate-x-12 group-hover:-translate-y-12 group-hover:rotate-3 transition duration-700 ">
-          I
-        </span>
-        <span className="group-hover:translate-x-12 group-hover:translate-y-12 group-hover:rotate-3 transition duration-700 ">
-          T
-        </span>
-        <span className="group-hover:-translate-x-14 group-hover:-translate-y-14 group-hover:rotate-3 transition duration-700 ">
-          Y
-        </span>
+      <Link href="/" className="flex items-center h-4">
+        <img src="/logo.png" alt="logo" className="block" />
       </Link>
 
       <nav className="mt-12 h-5/6 flex flex-col justify-between">
