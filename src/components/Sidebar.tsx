@@ -35,7 +35,11 @@ export default function () {
   return (
     <aside className="border-r px-4 py-8 border-slate-700  ">
       <Link href="/" className="flex items-center h-4">
-        <img src="/logo.png" alt="logo" className="block" />
+        <img
+          src={darkMode ? "/logo.png" : "/logo-white.png"}
+          alt="logo"
+          className="block"
+        />
       </Link>
 
       <nav className="mt-12 h-5/6 flex flex-col justify-between">
